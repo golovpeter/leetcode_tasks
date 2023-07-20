@@ -1,4 +1,4 @@
-package Medium
+package Backtracking
 
 func combinationSum3(k int, target int) [][]int {
 	var res [][]int

@@ -1,4 +1,4 @@
-package Medium
+package Dynamic_programming
 
 func min(a, b int) int {
 	if a < b {

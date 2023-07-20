@@ -1,4 +1,4 @@
-package Medium
+package Dynamic_programming
 
 func max(a, b int) int {
 	if a > b {

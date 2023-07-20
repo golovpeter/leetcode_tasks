@@ -1,4 +1,4 @@
-package Medium
+package Backtracking
 
 func generateParenthesis(n int) []string {
 	var res []string

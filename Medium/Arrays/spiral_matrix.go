@@ -1,4 +1,4 @@
-package Medium
+package Arrays
 
 func spiralOrder(matrix [][]int) []int {
 	var res []int

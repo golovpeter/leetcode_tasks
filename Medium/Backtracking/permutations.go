@@ -1,4 +1,4 @@
-package Medium
+package Backtracking
 
 func backtrack(currComb, left []int, res *[][]int) {
 	if len(left) == 0 {

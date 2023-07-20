@@ -1,4 +1,4 @@
-package Medium
+package Backtracking
 
 func combine(n int, k int) [][]int {
 	var res [][]int

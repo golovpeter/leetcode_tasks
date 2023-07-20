@@ -1,4 +1,4 @@
-package Medium
+package Dynamic_programming
 
 func maxSubArray(nums []int) int {
 	maxSum := nums[0]

@@ -1,4 +1,4 @@
-package Easy
+package Sliding_window
 
 func findMaxAverage(nums []int, k int) float64 {
 	var prevSum int

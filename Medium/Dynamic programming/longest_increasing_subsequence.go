@@ -1,4 +1,4 @@
-package Medium
+package Dynamic_programming
 
 func lengthOfLIS(nums []int) int {
 	dp := make([]int, len(nums))

@@ -1,4 +1,4 @@
-package Medium
+package Backtracking
 
 func exist(board [][]byte, word string) bool {
 	var backtrack func(board [][]byte, i, j int, word string) bool
