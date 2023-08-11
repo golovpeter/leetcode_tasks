@@ -1,7 +1,7 @@
 package DFS
 
 func visit(grid [][]byte, i, j int) {
-	if (i < 0) || (i > len(grid)-1) || (j < 0) || (j > len(grid[0])-1) {
+	if (i < 0) || (i > len(grid)-1) || (j < 0) || (j > len(grid[0])-1) || grid[i][j] == '0' {
 		return
 	}
 
