@@ -1,3 +1,3 @@
 # leetcode_tasks
 
-My leetcode tasks solutions
+![LeetCode Stats](https://leetcard.jacoblin.cool/golovpeter?theme=light&font=Hanuman&ext=activity)
