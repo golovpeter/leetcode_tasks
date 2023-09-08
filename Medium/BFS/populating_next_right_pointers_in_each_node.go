@@ -1,23 +1,23 @@
 package BFS
 
-type node struct {
+type nod struct {
 	Val   int
-	Left  *node
-	Right *node
-	Next  *node
+	Left  *nod
+	Right *nod
+	Next  *nod
 }
 
-func connect(root *node) *node {
+func connect(root *nod) *nod {
 	if root == nil {
 		return nil
 	}
 
-	queue := []*node{root}
+	queue := []*nod{root}
 
 	for len(queue) != 0 {
 		n := len(queue)
 
-		var lastNode *node
+		var lastNode *nod
 
 		for i := 0; i < n; i++ {
 			lastNode = queue[0]
